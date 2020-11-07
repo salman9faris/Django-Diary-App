@@ -1,0 +1,27 @@
+
+{% extends "navbar.html" %}
+{% block content %}
+{% block title %}
+<center><b><h2>Create an account here</h2></b>{% endblock %}
+<form class="form" method="POST">
+            {% csrf_token %}
+  {% for field in form %}
+            {{ field.label_tag }}<br>
+    {{ field }} {{ field.errors }}<br>
+
+    {% endfor %}
+    <button style="background-color: #22A3F2; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   border-radius: 10px;
+  margin: 4px 2px;
+  cursor: pointer;"  type="submit">Signup</button><br>
+    Existing User <a href="{% url 'signin' %}" >Signin</a> here
+      </form>
+</center>
+{% endblock %}

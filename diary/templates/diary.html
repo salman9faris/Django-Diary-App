@@ -1,0 +1,50 @@
+<head>
+
+
+<style>
+    .form{
+    padding: 10px;
+  font-size: 16px;
+   border-radius: 15px;
+  margin: 4px 2px;
+
+    }
+    .btn
+{
+background-color: #22A3F2; /* Green */
+  border: none;
+  color: white;
+  padding:10px 15px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.topic{
+ padding:15px 5px;
+ font-size: 20px;
+ font-weight:bold;
+ font-weight:bold;
+}
+
+</style>
+
+
+{% extends "navbar.html" %}
+{% block content %}
+{% if messages %}
+        {% for message in messages %}
+            {{message}}
+        {% endfor %}
+{% endif %}
+<div class="topic">You can Create a New diary here</div>
+<form action="" method="post">
+    {% csrf_token %}
+    <div class="form">
+        {{form.as_p}}
+        <br>
+        <button class="btn" type="submit" value="Create">Create/Update</button></div>
+</form>
+
+{% endblock %}

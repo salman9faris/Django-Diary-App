@@ -1,0 +1,89 @@
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topmenu {
+  overflow: hidden;
+
+}
+
+.topmenu a.right-dlt {
+  float: right;
+  color: #ff1a1a;
+  padding: 10px 5px 10px 15px;
+  font-size: 14px;
+  cursor:pointer;
+  text-decoration: none;
+}
+.topmenu a.right-edt {
+  float: right;
+  text-decoration: none;
+  color: #0000ff;
+  padding: 10px 5px 10px 15px;
+  font-size: 14px;
+  cursor:pointer;
+}
+.topmenu a.right-dlt:hover {
+  font-weight:bold;
+  font-size: 15px;
+}
+.topmenu a.right-edt:hover {
+  font-weight:bold;
+  font-size: 15px;
+}
+.btn-diary
+{
+background-color: #22A3F2; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 16px;
+   border-radius: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn-diary a{
+color: white;
+text-decoration: none;
+}
+.btn-diary:hover{
+background-color:  #3eaef4;
+}
+</style>
+
+{% extends "navbar.html" %}
+{% block content %}
+
+
+<div style="margin:10px;font-size: 18px;color: blue;font-family: 'Lucida Console', Courier, monospace;">
+Welcome {{user.username}}</div>
+<div style="padding:15px 30px">
+
+   <a href="diary"> <button class="btn-diary" type="submit">Add new Diary </button> </a></div>
+<Center style="font-size:20px;color:red">
+    {% if messages %}
+        {% for message in messages %}
+            {{message}}
+        {% endfor %}
+{% endif %}
+</Center>
+
+
+<hr>
+ {% for object in obj %}
+<div style="font-size: 16px; padding: 10px 15px;font-family: Arial, Helvetica, sans-serif;">
+    <div class="topmenu">
+<a class="right-dlt" href="delete_conform/{{object.id}}">Delete
+</a>
+<a class="right-edt" href=edit/{{object.id}} >Edit
+</a>
+        <a class="left">{{object.date}}</a>
+ </div>
+            {{object.diary}}    </div>
+<hr>
+        {% endfor %}
+
+{% endblock %}

@@ -1,0 +1,36 @@
+<style>
+button
+{
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 16px;
+   border-radius: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn-yes{
+background-color: red; /* Green */}
+.btn-no{
+background-color: #22A3F2; /* Green */}
+</style>
+
+
+{% extends "navbar.html" %}
+{% block content %}
+{% if messages %}
+        {% for message in messages %}
+            {{message}}
+        {% endfor %}
+{% endif %}
+<center style="padding-top:50px;">
+Are you surely want to delete this item?
+
+<a href='/delete_diary/{{obj.id}}'><button class="btn-yes" type="submit" value="yes">YES</button></a>
+<a href="/"><button class="btn-no" type="submit" value="yes">NO</button></a>
+</center>
+{% endblock %}
+
+

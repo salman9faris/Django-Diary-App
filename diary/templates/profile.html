@@ -1,0 +1,11 @@
+{% extends "navbar.html" %}
+{% block content %}
+{% if messages %}
+        {% for message in messages %}
+            {{message}}
+        {% endfor %}
+{% endif %}
+{% for obj in obj%}
+{{obj}}
+{% endfor %}
+{% endblock %}

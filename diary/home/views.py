@@ -1,4 +1,5 @@
 from django.contrib.auth import login, authenticate, logout
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.db.models import Q
 from django.shortcuts import render, redirect
@@ -8,7 +9,7 @@ from django.contrib.auth.forms import AuthenticationForm
 
 from .models import Diaryy
 
-
+@login_required(login_url='/signin')
 def home(request):
     obj = Diaryy.objects.filter(user_name=request.user)
     context = {
@@ -63,7 +64,7 @@ def logout_request(request):
     messages.error(request, "Logout successfully")
     return redirect("signin")
 
-
+@login_required(login_url='/signin')
 def diary(request):
     form = Diaryform()
     if request.method == "POST":
@@ -78,19 +79,19 @@ def diary(request):
     }
     return render(request, "diary.html", context)
 
-
+@login_required(login_url='/signin')
 def delete_conform(request, id):
     obj = Diaryy.objects.get(id=id)
     context = {"obj": obj}
     return render(request, 'conform.html', context)
 
-
+@login_required(login_url='/signin')
 def delete_diary(request, id):
     obj = Diaryy.objects.get(id=id)
     obj.delete()
     return redirect("home")
 
-
+@login_required(login_url='/signin')
 def edit(request, id):
     obj = Diaryy.objects.get(id=id)
     form = Diaryform(request.POST or None, instance=obj)
@@ -103,7 +104,7 @@ def edit(request, id):
         "form": form
     }
     return render(request, "diary.html", context)
-
+@login_required(login_url='/signin')
 def search(request):
     query=request.GET.get("search",None)
     obj = Diaryy.objects.filter(user_name=request.user)

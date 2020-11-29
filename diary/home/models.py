@@ -6,7 +6,8 @@ import datetime
 class Diaryy(models.Model):
     id = models.AutoField(primary_key=True)
     date = models.DateField(max_length=15)
-    diary=models.CharField(max_length=800)
+    title=models.CharField(max_length=50)
+    diary=models.TextField()
     user_name= models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE)
 
 

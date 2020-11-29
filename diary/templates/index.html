@@ -80,9 +80,10 @@ Welcome {{user.username}}</div>
 </a>
 <a class="right-edt" href=edit/{{object.id}} >Edit
 </a>
-        <a class="left">{{object.date}}</a>
+        <a class="left" style="color:green">{{object.date}}</a>
  </div>
-            {{object.diary}}    </div>
+    <h4 style="color:blue">{{object.title}}</h4>
+         <ul> {{object.diary}}</ul>      </div>
 <hr>
         {% endfor %}
 

@@ -36,6 +36,7 @@ class Diaryform(forms.ModelForm):
         model=Diaryy
         fields=[
                 "date",
+            "title",
             "diary"
         ]
 

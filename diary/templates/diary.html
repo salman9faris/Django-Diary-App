@@ -20,12 +20,14 @@ background-color: #22A3F2; /* Green */
   border-radius: 15px;
   margin: 4px 2px;
   cursor: pointer;
+  text-decoration: none;
 }
 .topic{
  padding:15px 5px;
  font-size: 20px;
  font-weight:bold;
  font-weight:bold;
+ text-decoration: none;
 }
 
 </style>
@@ -44,7 +46,8 @@ background-color: #22A3F2; /* Green */
     <div class="form">
         {{form.as_p}}
         <br>
-        <button class="btn" type="submit" value="Create">Create/Update</button></div>
+        <button class="btn" type="submit" value="Create">Create/Update</button>
+        <button class="btn" type="submit" ><a href="/"> Cancel</a></button></div>
 </form>
 
 {% endblock %}

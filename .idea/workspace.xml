@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94ca4273-ca3c-41dc-b29f-8b0e25bb2cb9" name="Default Changelist" comment="" />
+    <list default="true" id="94ca4273-ca3c-41dc-b29f-8b0e25bb2cb9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/diary/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/diary/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/diary/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/home/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/home/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/templates/diary.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/diary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/navbar.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +25,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\pattupara\PycharmProjects\Diary\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1j9KQ4GWDqd7XfoydZoJ5NneWOP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eduvahini" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ecommerce-site-master" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -48,10 +69,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603382618651">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1604764832145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603382618651" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604764832145" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603816895553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

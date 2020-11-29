@@ -1,11 +1,11 @@
-Markup : ## django diary app ## 
+## django diary app ## 
 
-####includes ##### 
+### includes 
  ##### -user registration
-  -login
-  -make new entries
-  -delete/edit entries
-  -search #####
+ ##### -login
+ ##### -make new entries
+ ##### -delete/edit entries
+ ##### -search 
   
  
  screen shots

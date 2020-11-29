@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94ca4273-ca3c-41dc-b29f-8b0e25bb2cb9" name="Default Changelist" comment="updated code">
+    <list default="true" id="94ca4273-ca3c-41dc-b29f-8b0e25bb2cb9" name="Default Changelist" comment="updated code with title">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diary/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/diary/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/home/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/home/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/home/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/home/migrations/0002_auto_20201027_1159.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/home/migrations/0003_auto_20201027_1201.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/home/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +30,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1j9KQ4GWDqd7XfoydZoJ5NneWOP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -74,30 +70,39 @@
       <option name="project" value="LOCAL" />
       <updated>1606656516325</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated code with title">
+      <created>1606660014316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606660014316</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="updated code" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated code" />
+    <MESSAGE value="updated code with title" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated code with title" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606658400516">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1606658400516" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1606660063287">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1606661497099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606660063287" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606661497099" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1604764832145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604764832145" />
-    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606660001242">
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606661500608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1606660001242" />
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1606661500608" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603816895553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

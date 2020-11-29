@@ -6,7 +6,6 @@ from django.shortcuts import render, redirect
 from .form import NewUserForm, Diaryform
 from django.contrib import messages
 from django.contrib.auth.forms import AuthenticationForm
-
 from .models import Diaryy
 
 @login_required(login_url='/signin')
